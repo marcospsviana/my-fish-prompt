@@ -7,7 +7,7 @@ FILE_PROMPT_BKP=$HOME/.config/fish/functions/fish_prompt.bkp.copy
 FISH_PROMPT=$(pwd)/fish_promp.fish
 
 
-if [ "$FISH" = "/usr/bin/fish" ]; then
+if [ "$FISH" = "/opt/homebrew/bin/fish" ]; then
     (
         if [ -d "$DIRECTORY" ]; then
             (
